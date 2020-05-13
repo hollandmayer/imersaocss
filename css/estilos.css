@@ -1,6 +1,8 @@
 body {
-  background-image: url('https://blog.diferencialti.com.br/wp-content/uploads/2017/08/5-sites-sobre-tecnologia-focado-em-empresas-para-marcar-como-favorito.jpeg');
-  background-size: auto 100vh;
+  background-blend-mode: saturation;
+  background-image: linear-gradient(black, white), url('https://blog.diferencialti.com.br/wp-content/uploads/2017/08/5-sites-sobre-tecnologia-focado-em-empresas-para-marcar-como-favorito.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: Arial;
   height: 100vh;
 }
