@@ -8,7 +8,7 @@
 body {
   background-image: url('../img/fundo.jpeg');
   background-size: auto 100vh;
-  font-family: Arial;
+  font-family: 'Roboto', sans-serif;
   height: 100vh;
   font-size: 12px;
 }
@@ -68,13 +68,56 @@ a:hover {
 .site-title {
   color: teal;
   text-align: center;
+  font-family: 'Sacramento', cursive;  
 }
 
 .site-subtitle {
   font-style: italic;
+  font-family: 'Courgette', cursive;
+  line-height: 1.8em;
+}
+
+.portfolio {
+  padding: 2em;
+  height: 100vh;	
+}
+
+.portfolio figure {
+  text-align: center;
+}
+
+.portfolio .grid {
+  display: grid;
+  gap: 2em;
+  justify-content: center;
+  align-content: center;
+}
+
+@media(min-width: 680px){
+  .portfolio .grid {
+    grid-template-columns: 240px 240px; 	
+  }
+}
+
+@media(min-width: 880px){
+  .portfolio .grid {
+    grid-template-columns: repeat(3,240px); 	
+	height: calc(100vh - 4em - 48px - 1.5em);
+  }
+}
+
+.portfolio h2 {
+  font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
+  margin-bottom: 1em;
+  font-size: 2em;
 }
 
 .img-portfolio {
   height: 180px;	
-  width: 180px;
+  width: 240px;
+  object-fit: cover;
+  object-position: bottom left;
 }
+
+
