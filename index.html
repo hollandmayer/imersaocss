@@ -12,8 +12,8 @@
 <body>
 <header>
   <nav class="menu">
-    <ul>
-      <li><a href="#">Sobre</a></li>
+    <ul class="container">
+      <li><a href="#sobre">Sobre</a></li>
       <li><a href="#portfolio">Projetos</a></li>
       <li><a href="#contato">Contato</a></li>
     </ul>
@@ -23,29 +23,102 @@
 	<h2 class="site-subtitle">Desenvolvedor de Sistemas</h2>
   </div>	
 </header>
-<section class="portfolio" id="portfolio">
+<section class="sobre container" id="sobre">
+	<h2>Sobre</h2>
+
+	<figure class="avatar">
+		<img src="img/eu.jpg" alt="Brunno Augusto">
+	</figure>
+
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolor accusamus dolore omnis est quo. Eveniet illum exercitationem tempore hic maiores, assumenda rerum dolorem a mollitia, esse quis quisquam fugit.
+	</p>
+	
+	<p>
+		Recusandae reiciendis maiores dignissimos voluptatum, magnam possimus velit labore sequi totam suscipit ipsum, eaque adipisci tempore, maxime minima? Ex dicta voluptatem harum quos tempora. Suscipit architecto corporis dolore voluptate rerum?
+	</p>
+	
+	<p>
+		Fuga, dignissimos molestiae porro rem ex maiores, facere deleniti laborum culpa qui nulla perferendis! Nihil dolorum impedit voluptatum accusamus harum magnam quis aliquam adipisci veritatis, ad cumque! Odio, fugiat soluta.
+	</p>
+	
+	<p>
+		Recusandae reiciendis maiores dignissimos voluptatum, magnam possimus velit labore sequi totam suscipit ipsum, eaque adipisci tempore, maxime minima? Ex dicta voluptatem harum quos tempora. Suscipit architecto corporis dolore voluptate rerum?
+	</p>
+	
+	<p>
+		Fuga, dignissimos molestiae porro rem ex maiores, facere deleniti laborum culpa qui nulla perferendis! Nihil dolorum impedit voluptatum accusamus harum magnam quis aliquam adipisci veritatis, ad cumque! Odio, fugiat soluta.
+	</p>
+
+	<p>
+		Recusandae reiciendis maiores dignissimos voluptatum, magnam possimus velit labore sequi totam suscipit ipsum, eaque adipisci tempore, maxime minima? Ex dicta voluptatem harum quos tempora. Suscipit architecto corporis dolore voluptate rerum?
+	</p>
+	
+	<p>
+		Fuga, dignissimos molestiae porro rem ex maiores, facere deleniti laborum culpa qui nulla perferendis! Nihil dolorum impedit voluptatum accusamus harum magnam quis aliquam adipisci veritatis, ad cumque! Odio, fugiat soluta.
+	</p>
+
+	<p>
+		Esse site foi construído durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a> ;)
+	</p>
+
+</section>
+<section class="portfolio container" id="portfolio">
   <h2>Projetos</h2>
   
   <div class="grid">
-	  <figure>
-		<img class="img-portfolio" src="img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
-		<figcaption>eCommerce</figcaption>
-	  </figure>
-	  <figure>
-		<img class="img-portfolio" src="img/mobile-creditos-nate-grant-unsplash.jpg" alt="Mobile">
-		<figcaption>Mobile</figcaption>
-	  </figure>
-	  <figure>
-		<img class="img-portfolio" src="img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web Design">
-		<figcaption>Web design</figcaption>
-	  </figure>
-	  <figure>
-		<img class="img-portfolio" src="img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos Pessoais">
-		<figcaption>Projetos Pessoais</figcaption>
-	  </figure> 
-  </div>	
+	  
+	  	<div class="flip-card">
+			<div class="card">	
+				<figure class="card-front">
+					<img class="img-portfolio" src="img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
+					<figcaption>eCommerce</figcaption>
+				</figure>
+				<div class="card-back">
+					Oi eu sou a parte de trás :)
+				</div>
+		  	</div>
+	  	</div>	
+	  
+	  	<div class="flip-card">
+			<div class="card">	
+				<figure class="card-front">
+					<img class="img-portfolio" src="img/mobile-creditos-nate-grant-unsplash.jpg" alt="Mobile">
+					<figcaption>Mobile</figcaption>
+				</figure>
+				<div class="card-back">
+					Oi eu sou a parte de trás :)
+				</div>
+			</div>
+		</div>
+		  
+	  	<div class="flip-card">
+			<div class="card">
+				<figure>
+					<img class="img-portfolio" src="img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web Design">
+					<figcaption>Web design</figcaption>
+				</figure>
+				<div class="card-back">
+					Oi eu sou a parte de trás :)
+				</div>
+			</div>
+		</div>	
+
+		<div class="flip-card">
+			<div class="card">	
+				<figure>
+					<img class="img-portfolio" src="img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos Pessoais">
+					<figcaption>Projetos Pessoais</figcaption>
+				</figure>
+				<div class="card-back">
+					Oi eu sou a parte de trás :)
+				</div>
+			</div>
+		</div> 
+  </div>
+  	
 </section>
-<section class="contato" id="contato">
+<section class="contato container" id="contato">
 	<h2>Contato</h2>
 
 	<div class="grid icons">
